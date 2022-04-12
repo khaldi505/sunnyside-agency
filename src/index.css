@@ -1,0 +1,126 @@
+
+:root{
+
+    /* Css breakpoints */
+    --Mobile: 375px;
+    --Desktop: 1440px;
+    
+    
+    /* Colors */
+    /* Primary */
+    --Soft-red: hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    /* graphic design text : */
+    --Dark-desaturated-cyan: hsl(167, 40%, 24%);
+    /* photography text : */
+    --Dark-blue: hsl(198, 62%, 26%);
+    /* footer */
+    --Dark-moderate-cyan: hsl(168, 34%, 41%);
+    /* Neutral */
+    --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --Dark-grayish-blue: hsl(232, 10%, 55%);
+    --Grayish-blue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
+    }
+
+
+
+
+    body{
+      
+    }
+
+
+    footer {
+    
+    }
+
+
+
+
+    .title, .article-title {
+        font-family: 'Fraunces', serif;
+    }
+
+
+
+
+
+    .header {
+        background-image: url('./../images/desktop/image-header.jpg');
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .header-logo {
+        margin-left: 2.5rem;
+        align-self: center;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+
+
+    .nav-items {
+        align-items: center;
+        color: white;
+        list-style: none;
+        display: flex;
+    }
+    .nav-item {
+        margin-left: 2rem;
+        font-weight: bold;
+    }
+    .Contact {
+        font-weight: bolder;
+        color: var(--Very-dark-desaturated-blue);
+        padding: 0.8rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        background-color: white;
+        border-radius: 3rem;
+        margin: 0 2rem 0rem 2rem;
+    }
+    
+    .header-title {
+        align-self: center;
+        font-size: 4.5rem;
+        color:white;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .arrow-down {
+        align-self: center;
+    }
+
+.article {
+    display: flex;
+}
+
+.article p {
+    color: var(--Very-dark-grayish-blue);
+}
+
+.article-title {
+    font-size: 3.5rem;
+    color: var(--Very-dark-desaturated-blue);
+    margin-bottom: 2rem;
+}
+
+
+.article-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}  
